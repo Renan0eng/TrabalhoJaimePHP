@@ -1,0 +1,119 @@
+/* style.css */
+
+/* General styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+/* Container for centering content */
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin-top: 20px;
+}
+
+/* Page headers */
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+/* Form styles */
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+input[type="number"] {
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 100%;
+}
+
+input[type="submit"] {
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #28a745;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #218838;
+}
+
+/* Table styles */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th, td {
+	padding: 10px;
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+/* Links */
+a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Action buttons */
+.action-button {
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.action-button.edit {
+	background-color: #007bff;
+}
+
+.action-button.delete {
+	background-color: #dc3545;
+}
+
+.action-button.edit:hover {
+	background-color: #0056b3;
+}
+
+.action-button.delete:hover {
+	background-color: #c82333;
+}
+
